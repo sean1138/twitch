@@ -1,0 +1,54 @@
+/*.ember-view {
+	border: 1px solid grey;
+}*/
+
+.warp__list.ember-view {
+	/* that's odd, .ember-view is a CHILD of .warp__list but doesn't target the stupid thing vs2017.04.01 */
+	
+	display: none;
+}
+/* stupid "top cheer" message that wouldn't go away */
+
+.sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view {
+	display: none;
+}
+.ember-chat .chat-room {
+	top: 10px;
+}
+.ember-chat .chat-messages {
+	bottom: 90px;
+}
+.chat-display.ember-view {
+	background: rgb(150,150,150);
+}
+.ember-chat .tse-scroll-content {
+	background-color: #FAFAFA;
+}
+.ember-chat .chat-interface {
+	padding-bottom: 0;
+	padding-top: 5px;
+	height: 98px;
+	background: #f3f3f3;
+}
+.ember-chat .chat-messages .chat-line {
+	margin: 0;
+	padding: 3px .5em;
+	color: black;
+}
+.ember-chat .chat-messages .chat-line + .chat-line {
+	border-top: 1px solid rgba(0, 0, 0, .125);
+}
+.ember-chat .chat-messages .chat-line:nth-child(odd) {
+	background: rgba(255, 255, 255, .9);
+}
+.ember-chat .chat-messages .chat-line:nth-child(even) {
+	background: rgba(255, 255, 255, .93);
+}
+.balloon-wrapper.float-left {
+	/*display:none;*/
+}
+/* hide the prime icons */
+
+a[href="https://twitch.amazon.com/prime"] {
+	display: none;
+}
