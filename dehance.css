@@ -77,7 +77,10 @@
 	border: 1px solid rgba(255, 255, 255, .2);
 }
 /* hide the prime icons */
-
-a[href="https://twitch.amazon.com/prime"] {
+a[href="https://twitch.amazon.com/prime"],
+/* hide the cheer icons */
+a[href="https://blog.twitch.tv/introducing-cheering-celebrate-together-da62af41fac6"],
+/* hide the turbo icons */
+a[href="/products/turbo?ref=chat_badge"]{
 	display: none;
 }
