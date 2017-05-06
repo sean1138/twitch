@@ -12,6 +12,12 @@
 .sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view {
 	display: none;
 }
+.top-nav__menu, .top-nav__logo, .top-nav__drawer-anchor {
+    background-color: hsla(258, 10%, 62%, 1);
+}
+.prime-crown__new-offer-count, .top-nav__avatar{
+	opacity:.5;
+}
 .ember-chat .chat-room {
 	top: 10px;
 }
