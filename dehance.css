@@ -12,6 +12,14 @@
 .sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view {
 	display: none;
 }
+/* remove the top-nav */
+.js-top-nav {
+	display:none;
+}
+.app-main.has-sc, .has-sc .cn-bar-fixed{
+	top:0;
+}
+/* end remove the top-nav */
 .top-nav__menu, .top-nav__logo, .top-nav__drawer-anchor {
     background-color: hsla(258, 10%, 62%, 1);
 }
