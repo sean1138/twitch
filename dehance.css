@@ -14,92 +14,18 @@
 }
 /* remove the top-nav */
 .js-top-nav {
-	display:none;
+/*	display:none;*/
 }
 .app-main.has-sc, .has-sc .cn-bar-fixed{
-	top:0;
+/*	top:0;*/
 }
 /* end remove the top-nav */
 .top-nav__menu, .top-nav__logo, .top-nav__drawer-anchor {
-    background-color: hsla(258, 10%, 62%, 1);
+    background-color: hsla(258, 25%, 20%, 1);
 }
 .prime-crown__new-offer-count, .top-nav__avatar{
 	opacity:.5;
 }
-.ember-chat .chat-room {
-	top: 10px;
-}
-.ember-chat .chat-messages {
-	bottom: 90px;
-}
-.chat-display.ember-view {
-	background: rgb(150, 150, 150);
-}
-.theatre.dark.theme--dark .chat-display.ember-view {
-	background: rgb(5, 5, 5);
-}
-.ember-chat .tse-scroll-content {
-	background-color: #FAFAFA;
-}
-.theatre.dark.theme--dark .ember-chat .tse-scroll-content {
-	background-color: #FFF;
-}
-.ember-chat .chat-interface {
-	padding-bottom: 0;
-	padding-top: 5px;
-	height: 98px;
-	background: #f3f3f3;
-}
-.theatre.dark.theme--dark .ember-chat .chat-interface {
-	background: #000;
-}
-.ember-chat .chat-messages .chat-line {
-	margin: 0;
-	padding: 3px .5em;
-	color: black;
-}
-.theatre.dark.theme--dark .ember-chat .chat-messages .chat-line {
-	color: white;
-}
-.ember-chat .chat-messages .chat-line + .chat-line {
-	padding-top: 2px;
-	border-top: 1px solid rgba(0, 0, 0, .001);
-}
-.ember-chat .chat-messages .chat-line:nth-child(odd) {
-	background: rgba(255, 255, 255, .9);
-}
-.ember-chat .chat-messages .chat-line:nth-child(even) {
-	background: rgba(255, 255, 255, .9);
-}
-.theatre.dark.theme--dark .ember-chat .chat-messages .chat-line:nth-child(odd) {
-	background: rgba(255, 255, 255, .1);
-}
-.theatre.dark.theme--dark .ember-chat .chat-messages .chat-line:nth-child(even) {
-	background: rgba(255, 255, 255, .1);
-}
-.balloon-wrapper.float-left {
-	/*display:none;*/
-}
-.mentioned {
-	background: hsla(60, 100%, 50%, .5) !important;
-	border: 1px solid rgba(0, 0, 0, .2);
-	border-radius: 2px;
-	color: black !important;
-}
-.theatre.dark.theme--dark .mentioned {
-	background: hsla(60, 100%, 50%, .8) !important;
-	border: 1px solid rgba(255, 255, 255, .2);
-}
-/*.ember-view {
-	border: 1px solid grey;
-}*/
-
-.warp__list.ember-view {
-	/* that's odd, .ember-view is a CHILD of .warp__list but doesn't target the stupid thing vs2017.04.01 */
-
-	display: none;
-}
-/* stupid "top cheer" message that wouldn't go away */
 
 .sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view {
 	display: none;
@@ -133,7 +59,7 @@
 }
 .ember-chat .chat-messages .chat-line {
 	margin: 0;
-	padding: 3px .5em;
+	padding: 3px .75em;
 	color: black;
 }
 .theatre.dark.theme--dark .ember-chat .chat-messages .chat-line {
@@ -172,15 +98,6 @@
 .js-recommended-channels.recommended-channels.is-drawer-closed--hide.ember-view{
 	display:none;
 }
-/* hide the prime icons */
-a[href="https://twitch.amazon.com/prime"],
-/* hide the cheer icons */
-a[href="https://blog.twitch.tv/introducing-cheering-celebrate-together-da62af41fac6"],
-/* hide the turbo icons */
-a[href="/products/turbo?ref=chat_badge"]{
-	display: none;
-}
-
 /* hide the prime icons */
 a[href="https://twitch.amazon.com/prime"],
 /* hide the cheer icons */
