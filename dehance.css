@@ -9,7 +9,8 @@
 }
 /* stupid "top cheer" message that wouldn't go away */
 
-.sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view {
+.sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.showTimestamps.ember-view,
+.sticky-message.sticky-message--pinned-cheers.pinned-cheers.hideModIcons.hideTimestamps.ember-view{
 	display: none;
 }
 /* remove the top-nav */
